@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy:dev": "vue-cli-service build && grunt deploy:dev"
+    "deploy:dev": "vue-cli-service build && grunt deploy:dev",
+    "deploy:test": "vue-cli-service build && grunt deploy:test",
+    "deploy:prod": "vue-cli-service build && grunt deploy:prod"
   },
   "dependencies": {
     "core-js": "3.8.3",
